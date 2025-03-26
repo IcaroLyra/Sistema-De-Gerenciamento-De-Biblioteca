@@ -1,0 +1,8 @@
+Passo:
+    1-Adicionar livros
+    Classes : Livro: ISBN, Titulo, autor, categoria;
+              Biblioteca: lista de livros
+              Pessoa:CPF, nome, data de nascimento
+              Herda de Pessoa Cliente:id
+              Herda de Pessoa Autor:livros escritos,
+              Emprestimo: livro, id, data de emprestimo, data de devolucao;
