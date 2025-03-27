@@ -1,33 +1,38 @@
 public class Pessoa {
-  protected String Cpf;
-  protected String Nome;
-  protected int DataDeNacimento;
+  protected String cpf;
+  protected String nome;
+  protected int dataDeNacimento;
 
-  public Pessoa(String cpf, String nome, int datadenacimento) {
+  public Pessoa(String cpf, String nome, int dataDeNacimento) {
 
-    Cpf = cpf;
-    Nome = nome;
-    DataDeNacimento = datadenacimento;
-  }
+    this.cpf = cpf;
+    this.nome = nome;
+    this.dataDeNacimento = dataDeNacimento;
 
-  public String getcpf(){
-    return Cpf;
-  }
-  public void setcpf(String cpf){
-    Cpf = cpf;
-  }
-  public String getnome(){
-    return Nome;
-  }
-  public void setnome(String nome){
-    Nome = nome;
   }
 
-  public int getdatadenacimento(){
-    return DataDeNacimento;
+  public String getcpf() {
+    return cpf;
   }
-  public void setdata(int data){
-    DataDeNacimento = data;
+
+  public void setcpf(String cpf) {
+    this.cpf = cpf;
+  }
+
+  public String getnome() {
+    return nome;
+  }
+
+  public void setnome(String nome) {
+    this.nome = nome;
+  }
+
+  public int getdatadenacimento() {
+    return dataDeNacimento;
+  }
+
+  public void setdata(int data) {
+    this.dataDeNacimento = data;
   }
 
 }

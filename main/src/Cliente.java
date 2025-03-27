@@ -1,13 +1,13 @@
 public class Cliente extends Pessoa{
-    private int ID;
+    private int id;
 
-    public Cliente(String cpf, String nome, int datadenacimento, int id){
-        super(cpf, nome, datadenacimento);
-        ID = id;
+    public Cliente(String cpf, String nome, int dataDeNacimento, int id){
+        super(cpf, nome, dataDeNacimento);
+        this.id = id;
     }
 
     public int getID(){
-        return ID;
+        return id;
     }
 }
 

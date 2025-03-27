@@ -1,38 +1,45 @@
 public class Livro {
-  private int ISBN;
-  private String Titulo;
-  private Autor Autor;
-  private String Categoria;
+  private long isbn;
+  private String titulo;
+  private Autor autor;
+  private String categoria;
 
-  public Livro(int isbn, String titulo, Autor autor, String categoria){
-    ISBN = isbn;
-    Titulo = titulo;
-    Autor = autor;
-    Categoria = categoria;
+  public Livro(long isbn, String titulo, Autor autor, String categoria) {
+    this.isbn = isbn;
+    this.titulo = titulo;
+    this.autor = autor;
+    this.categoria = categoria;
   }
 
-  public int getISBN(){
-    return ISBN;
+  public long getIsbn() {
+    return isbn;
   }
-  public void setISBN(int isbn){
-    ISBN = isbn;
+
+  public void setIsbn(long isbn) {
+    this.isbn = isbn;
   }
-  public String getTitulo(){
-    return Titulo;
+
+  public String getTitulo() {
+    return titulo;
   }
-  public void setTitulo(String titulo){
-    Titulo = titulo;
+
+  public void setTitulo(String titulo) {
+    this.titulo = titulo;
   }
-  public Autor getAutor(){
-    return Autor;
+
+  public Autor getAutor() {
+    return autor;
   }
-  public void setAutor(Autor autor){
-    Autor = autor;
+
+  public void setAutor(Autor autor) {
+    this.autor = autor;
   }
-  public String getCategoria(){
-    return Categoria;
+
+  public String getCategoria() {
+    return categoria;
   }
-  public void setCategoria(String categoria){
-    Categoria = categoria;
+
+  public void setCategoria(String categoria) {
+    this.categoria = categoria;
   }
 }
