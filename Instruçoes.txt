@@ -1,8 +1,13 @@
-Passo:
-    1-Adicionar livros
-    Classes : Livro: ISBN, Titulo, autor, categoria;
-              Biblioteca: lista de livros
-              Pessoa:CPF, nome, data de nascimento
-              Herda de Pessoa Cliente:id
-              Herda de Pessoa Autor:livros escritos,
-              Emprestimo: livro, id, data de emprestimo, data de devolucao;
+PLANEJAMENTO INICIAL — não representa funcionalidades concluídas.
+
+Já existem as classes Pessoa, Cliente, Autor e Livro em main/src/.
+O Main ainda imprime apenas Hello, World!.
+
+Ideias para próximos passos:
+- Criar a classe Biblioteca para manter um catálogo de livros.
+- Implementar cadastro e consulta de livros.
+- Criar a classe Emprestimo e o fluxo de empréstimo e devolução.
+- Integrar essas operações a um menu.
+- Acrescentar validações e persistência.
+
+Consulte README.md para o estado atual e as instruções de execução.
